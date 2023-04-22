@@ -132,3 +132,11 @@ footer p{
     margin:0;
     text-shadow: 2px 2px darkgray;
 }
+
+@media (max-width: 768px) {
+
+    main{
+        flex-direction: column;
+    }
+
+}
