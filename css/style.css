@@ -8,10 +8,11 @@
 }
 
 /* Body */
-body {
-  margin: 0;
-  font-size: 16px;
-  font-family: "Lato", sans-serif;
+body{
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    --bs-body-bg: rgb(99, 158, 81);
 }
 
 img {
@@ -26,6 +27,7 @@ img {
   margin: 0 auto;
   border-radius: 5px;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.877);
+
 }
 
 /* Header */
@@ -37,9 +39,16 @@ header {
 }
 
 /* Brand */
-.brand a,
-.brand img {
-  display: block;
+.brand{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.brand img{
+    display: flex;
+    width: 20%;
+    margin-left: 25px;
+
 }
 
 /* Menu */
@@ -68,8 +77,11 @@ nav ul li a:hover {
 }
 
 /* Slider */
-.slider img {
-  display: block;
+.slider img{
+    display: block;
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
 }
 
 /* Main */
@@ -99,15 +111,15 @@ aside {
   margin-bottom: 50px;
 }
 
-.widget img {
-  float: left;
-  /* padding: 0 10px 5px 0; -alternatywne rozw w przypadku braku borderu */
-  margin: 0 10px 5px 0;
-  border: 5px solid red;
+.widget img{
+    float: left;
+    /* padding: 0 10px 5px 0; -alternatywne rozw w przypadku braku borderu */
+    margin: 10px 20px -10px 0;
+    max-width: 100px;
+
 }
 
 /* Links */
-
 .links ul {
   list-style-type: square;
   padding-left: 18px;
