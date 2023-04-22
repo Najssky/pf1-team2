@@ -139,4 +139,24 @@ footer p{
         flex-direction: column;
     }
 
+    article{
+        width: 100%;
+        text-align: justify;
+    }
+
+    article h1{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    aside{
+        width: 100%;
+        text-align: justify;
+    }
+
+    aside h3{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
 }
